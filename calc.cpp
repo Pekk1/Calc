@@ -25,11 +25,11 @@ int main() {
 		break;
 
 	case 1:
-		summation(a, b);
+		cout << "a + b = " << summation(a, b) << endl;
 		break;
 
 	case 2:
-		subtraction(a, b);
+		cout << "a - b = " << subtraction(a, b) << endl;
 		break;
 
 	case 3:
