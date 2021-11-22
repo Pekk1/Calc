@@ -39,7 +39,6 @@ int main() {
 	case 4:
 		division(a, b);
 		break;
-
 	}
 	
 	system("pause");
