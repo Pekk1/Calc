@@ -37,7 +37,7 @@ int main() {
 		break;
 
 	case 4:
-		division(a, b);
+		cout << "a / b = " << division(a, b) << endl;
 		break;
 
 	}
