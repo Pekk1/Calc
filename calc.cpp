@@ -33,7 +33,7 @@ int main() {
 		break;
 
 	case 3:
-		multiplication(a, b);
+		cout << "a * b = " << multiplication(a, b) << endl;
 		break;
 
 	case 4:

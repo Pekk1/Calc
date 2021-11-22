@@ -11,8 +11,7 @@ double subtraction(double a, double b) {
 }
 
 double multiplication(double a, double b) {
-	cout << "a * b = эта операция в разработке" << endl;
-	return 0;
+	return a*b;
 }
 
 double division(double a, double b) {
