@@ -20,9 +20,6 @@ int main() {
 	cout << endl;
 
 	switch (choice) {
-	default:
-		cout << "ERROR" << endl;
-		break;
 
 	case 1:
 		cout << "a + b = " << summation(a, b) << endl;
@@ -38,6 +35,10 @@ int main() {
 
 	case 4:
 		cout << "a / b = " << division(a, b) << endl;
+		break;
+
+	default:
+		cout << "ERROR" << endl;
 		break;
 	}
 	
